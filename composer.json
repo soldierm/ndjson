@@ -1,0 +1,29 @@
+{
+  "name": "soldierm/ndjson",
+  "description": "php parse ndjson",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "zhouyang",
+      "email": "zy952014475@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Soldierm\\Ndjson\\": "./src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Soldierm\\Ndjson\\Test\\": "./test"
+    }
+  },
+  "require": {
+    "php": "^7.1",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.0"
+  }
+}
