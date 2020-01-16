@@ -5,6 +5,11 @@
   </a>
 </p>
 
+## Download
+```shell script
+composer require soldierm/ndjson
+```
+
 ## Usage
 
 ### Decode ndjson
